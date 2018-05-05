@@ -51,7 +51,7 @@ const Header = () => (
 
           }}
         >
-          About Me
+          About  - Me
         </Link>
       </ul>
 

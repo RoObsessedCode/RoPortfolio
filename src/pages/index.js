@@ -2,10 +2,12 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styles from './index.module.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import About from './about';
 
+/*
 const IndexPage = () => (
   <div className="container">
-    <div id="main-header">
+    <header id="main-header">
       <div className="row no-gutters">
         <div className="col-lg-4 col-md-5">
           <img src = "/rohanProfile.png"/>
@@ -43,18 +45,25 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-    </div>
+    </header>
   </div>
 
 )
-
+*/
+const IndexPage = () => (
+  <div>
+    <About />
+    <About />
+    <div>BITCH NIGGA THATS THAT SHIT I DONT LIKE</div>
+  </div>
+)
 export default IndexPage;
 
   // <div className={styles.div}>
   //   <div >
   //     <h1>Rohan's Portfolio</h1>
   //     <img src = "/rohanProfile.png"/>
-  //     <i className="fa fa-check"></i>
+  //     <i className="fa fa-check"></i>d
   //     <Link to="/about/">Who's Rohan?</Link>
   //   </div>
   // </div>
